@@ -1,9 +1,3 @@
-@font-face {
-  font-family: XKCD;
-  src: url('/6/assets/fonts/XKCD.otf');
-  font-display: swap;
-}
-
 body {
   margin: 0;
   font-family: XKCD, 'Comic Sans MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
