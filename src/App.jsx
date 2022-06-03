@@ -1,4 +1,4 @@
-import img from './assets/img.png';
+import img from './assets/img.webp';
 import styles from './App.module.css';
 
 function App() {
