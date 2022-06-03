@@ -8,4 +8,5 @@ export default defineConfig({
         polyfillDynamicImport: false,
     },
     base: `/6/`,
+    assetsInclude: ["**/*.otf"],
 });

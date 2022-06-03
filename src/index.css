@@ -1,6 +1,6 @@
 @font-face {
   font-family: XKCD;
-  src: url('./assets/fonts/XKCD.otf');
+  src: url('/6/assets/fonts/XKCD.otf');
   font-display: swap;
 }
 
