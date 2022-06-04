@@ -11,7 +11,7 @@ export default defineConfig({
                     {
                         name: "XKCD",
                         local: "XKCD",
-                        src: "./src/assets/fonts/xkcd.otf",
+                        src: "./src/assets/fonts/xkcd.ttf",
                     },
                 ],
             },
@@ -22,5 +22,5 @@ export default defineConfig({
         polyfillDynamicImport: false,
     },
     base: `/6/`,
-    assetsInclude: ["**/*.otf"],
+    assetsInclude: ["**/*.ttf"],
 });
