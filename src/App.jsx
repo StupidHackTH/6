@@ -1,11 +1,11 @@
-import img from './assets/img.webp';
-import styles from './App.module.css';
+import img from "./assets/img.webp"
+import styles from "./App.module.css"
 
 function App() {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <img src={img} alt=""/>
+        <img src={img} alt="" />
         <h1 class={styles.title}>STAY TUNED</h1>
         <div class={styles.links}>
           <a href="https://facebook.com/stupidhackth">FACEBOOK</a>
@@ -16,7 +16,7 @@ function App() {
         <h4>THE STUPID HACKATHON THAILAND</h4>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

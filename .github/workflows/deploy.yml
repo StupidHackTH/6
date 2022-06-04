@@ -1,6 +1,6 @@
 name: Build and Deploy
 on: [push]
-permissions: 
+permissions:
   contents: write
 jobs:
   build-and-deploy:
