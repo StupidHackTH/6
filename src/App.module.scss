@@ -8,7 +8,7 @@
   background-color: white;
   color: black;
 
-  @apply flex flex-col justify-center items-center mb-8;
+  @apply mb-8 flex flex-col items-center justify-center;
 }
 
 .title {
@@ -23,7 +23,7 @@ img {
 .links {
   display: flex;
   gap: 2rem;
-  
+
   @apply mt-6 text-lg;
 }
 
@@ -37,19 +37,17 @@ a:hover {
 }
 
 .comic-panel {
-  gap: 1px;
-
-  @apply grid grid-cols-2 border border-black bg-black sm:h-[28rem] sm:w-[28rem] h-[90vw] w-[90vw];
+  @apply grid w-[90vw] grid-cols-2 border border-black bg-white sm:w-[28rem];
 }
 
 .panel-item {
-  @apply aspect-square hover:brightness-95 grid items-center justify-center bg-white text-center text-black;
+  @apply grid aspect-square items-center justify-center bg-white text-center text-black hover:brightness-95;
 
   > p {
     @apply underline group-hover:no-underline;
   }
 
-  &.--black {
-    @apply bg-black text-white;
+  &.--coming-soon {
+    @apply border border-black;
   }
 }

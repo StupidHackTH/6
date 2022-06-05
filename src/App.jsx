@@ -4,6 +4,19 @@ import styles from "./App.module.scss"
 import classNames from "classnames"
 
 function App() {
+  const ticketTypes = [
+    {
+      name: "Early Bird",
+      href: "https://facebook.com/stupidhackth",
+      imgSrc: earlybirdImg,
+    },
+    {name: "Batch 1",},
+    {name: "Batch 2"},
+    {name: "Batch 3"},
+    {name: "Batch 4"},
+    {name: "Batch 5"}
+  ]
+
   return (
     <div class={classNames("flex flex-col items-center justify-center", styles.App)}>
       <header class={styles.header}>
@@ -15,46 +28,25 @@ function App() {
         </article>
       </header>
 
-      <section class="mt-4 mb-2">
+      <section class="mt-2 mb-2">
         <h2 class="my-2 text-2xl sm:my-8">Tickets</h2>
-
         <main class={styles["comic-panel"]}>
-          <a
-            class={classNames("group", styles["panel-item"], styles["--black"])}
-            href="https://facebook.com/stupidhackth"
-          >
-            <div>
-              {/* <img src={earlybirdImg} alt="Early Bird Ticket" /> */}
-              <p>Coming Soon...</p>
-            </div>
-          </a>
 
-          <a
-            class={classNames("group", styles["panel-item"], styles["--black"])}
-            href="https://facebook.com/stupidhackth"
-          >
-            <div>
-              <p>Coming Soon...</p>
-            </div>
-          </a>
+          <For each={ticketTypes}>
+            {(type) => (
+              <a
+                class={classNames("group", styles["panel-item"], styles["--coming-soon"])}
+                href={type.href || "https://facebook.com/stupidhackth"}
+              >
+                <div>
+                  <Show when={type.imgSrc} fallback={<p>Coming Soon...</p>}>
+                    <img src={earlybirdImg} alt="Early Bird Ticket" />
+                  </Show>
+                </div>
+              </a>
+            )}
+          </For>
 
-          <a
-            class={classNames("group", styles["panel-item"], styles["--black"])}
-            href="https://facebook.com/stupidhackth"
-          >
-            <div>
-              <p>Coming Soon...</p>
-            </div>
-          </a>
-
-          <a
-            class={classNames("group", styles["panel-item"], styles["--black"])}
-            href="https://facebook.com/stupidhackth"
-          >
-            <div>
-              <p>Coming Soon...</p>
-            </div>
-          </a>
         </main>
       </section>
 
