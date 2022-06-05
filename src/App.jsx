@@ -1,19 +1,65 @@
-import img from "./assets/img.webp"
-import styles from "./App.module.css"
+import img from "./assets/banner.webp"
+import earlybirdImg from "./assets/tickets/earlybird.jpg"
+import styles from "./App.module.scss"
+import classNames from "classnames"
 
 function App() {
   return (
-    <div class={styles.App}>
+    <div class={classNames("flex flex-col items-center justify-center", styles.App)}>
       <header class={styles.header}>
-        <img src={img} alt="" />
-        <h1 class={styles.title}>STAY TUNED</h1>
-        <div class={styles.links}>
-          <a href="https://facebook.com/stupidhackth">FACEBOOK</a>
-          <a href="https://eventpop.me">EVENTPOP</a>
-        </div>
+        <img src={img} alt="THE ៦th STUPID HACKATHON THAILAND" />
+        <h1 class={classNames("mb-2 text-4xl uppercase sm:text-6xl", styles.title)}>Stay Tuned</h1>
+        <article class={styles.links}>
+          <a href="https://facebook.com/stupidhackth">Facebook</a>
+          <a href="https://eventpop.me/e/13089">EventPop</a>
+        </article>
       </header>
-      <footer>
-        <h4>THE STUPID HACKATHON THAILAND</h4>
+
+      <section class="mt-4 mb-2">
+        <h2 class="my-2 text-2xl sm:my-8">Tickets</h2>
+
+        <main class={styles["comic-panel"]}>
+          <a
+            class={classNames("group", styles["panel-item"], styles["--black"])}
+            href="https://facebook.com/stupidhackth"
+          >
+            <div>
+              {/* <img src={earlybirdImg} alt="Early Bird Ticket" /> */}
+              <p>Coming Soon...</p>
+            </div>
+          </a>
+
+          <a
+            class={classNames("group", styles["panel-item"], styles["--black"])}
+            href="https://facebook.com/stupidhackth"
+          >
+            <div>
+              <p>Coming Soon...</p>
+            </div>
+          </a>
+
+          <a
+            class={classNames("group", styles["panel-item"], styles["--black"])}
+            href="https://facebook.com/stupidhackth"
+          >
+            <div>
+              <p>Coming Soon...</p>
+            </div>
+          </a>
+
+          <a
+            class={classNames("group", styles["panel-item"], styles["--black"])}
+            href="https://facebook.com/stupidhackth"
+          >
+            <div>
+              <p>Coming Soon...</p>
+            </div>
+          </a>
+        </main>
+      </section>
+
+      <footer class="py-6 uppercase">
+        <h4>The Stupid Hackathon Thailand</h4>
       </footer>
     </div>
   )

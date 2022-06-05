@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+
+  @apply uppercase;
+}
+
+.header {
+  background-color: white;
+  color: black;
+
+  @apply flex flex-col justify-center items-center mb-8;
+}
+
+.title {
+  padding: 0;
+}
+
+img {
+  max-height: 60vh;
+  max-width: 95%;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  
+  @apply mt-6 text-lg;
+}
+
+a {
+  color: #0284c8;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.comic-panel {
+  gap: 1px;
+
+  @apply grid grid-cols-2 border border-black bg-black sm:h-[28rem] sm:w-[28rem] h-[90vw] w-[90vw];
+}
+
+.panel-item {
+  @apply aspect-square hover:brightness-95 grid items-center justify-center bg-white text-center text-black;
+
+  > p {
+    @apply underline group-hover:no-underline;
+  }
+
+  &.--black {
+    @apply bg-black text-white;
+  }
+}
