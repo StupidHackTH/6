@@ -1,5 +1,4 @@
 import img from "./assets/banner.webp"
-import earlybirdImg from "./assets/tickets/earlybird.jpg"
 import styles from "./App.module.scss"
 import classNames from "classnames"
 import { Tickets } from "./Components/Tickets"

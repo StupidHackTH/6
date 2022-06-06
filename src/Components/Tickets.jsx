@@ -1,4 +1,4 @@
-import earlybirdImg from "../assets/tickets/earlybird.jpg"
+import earlyBirdImg from "../assets/tickets/b0_earlybird.png"
 import styles from "../App.module.scss"
 import classNames from "classnames"
 
@@ -6,8 +6,8 @@ export function Tickets () {
   const ticketTypes = [
     {
       name: "Early Bird",
-      href: "https://facebook.com/stupidhackth",
-      imgSrc: earlybirdImg,
+      href: "https://facebook.com/stupidhackthhttps://web.facebook.com/505764236423154/posts/pfbid02VLgLbiSm9VeBYfDG4ueYNK9pVDazLyDB1jDsUqpjUKAVN3dwkuLpJdkw9uqzugZkl",
+      imgSrc: earlyBirdImg,
     },
     {name: "Batch 1",},
     {name: "Batch 2"},
@@ -25,7 +25,7 @@ export function Tickets () {
       >
         <div>
           <Show when={type.imgSrc} fallback={<p>Coming Soon...</p>}>
-            <img src={earlybirdImg} alt="Early Bird Ticket" />
+            <img src={earlyBirdImg} alt="Early Bird Ticket" />
           </Show>
         </div>
       </a>
