@@ -6,7 +6,7 @@ export function Tickets () {
   const ticketTypes = [
     {
       name: "Early Bird",
-      href: "https://facebook.com/stupidhackthhttps://web.facebook.com/505764236423154/posts/pfbid02VLgLbiSm9VeBYfDG4ueYNK9pVDazLyDB1jDsUqpjUKAVN3dwkuLpJdkw9uqzugZkl",
+      href: "https://web.facebook.com/505764236423154/posts/pfbid02VLgLbiSm9VeBYfDG4ueYNK9pVDazLyDB1jDsUqpjUKAVN3dwkuLpJdkw9uqzugZkl",
       imgSrc: earlyBirdImg,
     },
     {name: "Batch 1",},
