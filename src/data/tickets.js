@@ -24,5 +24,5 @@ export const tickets = [
         href: "https://facebook.com/stupidhackth",
         imgSrc: "images/tickets/b4_stupid_adventure.webp",
     },
-    { name: "Batch[5] = Coming Soon...", href: "/" },
+    { name: "Coming Soon...", href: "/" },
 ];
