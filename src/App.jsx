@@ -1,7 +1,10 @@
 import img from "./assets/banner.webp"
 import styles from "./App.module.scss"
 import classNames from "classnames"
-import { Tickets } from "./Components/Tickets"
+import { Gallary } from "./Components/Gallary"
+
+import { tickets } from "./data/tickets"
+import { sponsors } from "./data/sponsors"
 
 function App() {
 
@@ -17,7 +20,12 @@ function App() {
 
       <section class="mt-2 mb-2">
         <h2 class="my-2 text-2xl sm:my-8">Tickets</h2>
-          <Tickets />
+          <Gallary data={tickets}/>
+      </section>
+
+      <section class="mt-2 mb-2">
+        <h2 class="my-2 text-2xl sm:my-8">Sponsors</h2>
+          <Gallary data={sponsors}/>
       </section>
 
       <footer class="py-6 uppercase">
