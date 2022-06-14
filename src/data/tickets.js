@@ -1,8 +1,8 @@
-import earlyBirdImg from "../assets/tickets/b0_earlybird.png"
-import stupidPitchImg from "../assets/tickets/b1_stupidpitch.png"
-import ctfImg from "../assets/tickets/b2_ctf.png"
-import treasureHunterImg from "../assets/tickets/b3_treasure_hunter.png"
-import stupidAdventureImg from "../assets/tickets/b4_stupid_adventure.png"
+import earlyBirdImg from "../assets/tickets/b0_earlybird.webp"
+import stupidPitchImg from "../assets/tickets/b1_stupidpitch.webp"
+import ctfImg from "../assets/tickets/b2_ctf.webp"
+import treasureHunterImg from "../assets/tickets/b3_treasure_hunter.webp"
+import stupidAdventureImg from "../assets/tickets/b4_stupid_adventure.webp"
 
 export const tickets = [
   {

@@ -1,4 +1,4 @@
-import hodl from "../assets/sponsors/hodl.jpeg"
+import hodl from "../assets/sponsors/hodl.webp"
 
 export const sponsors = [
   {
