@@ -1,13 +1,11 @@
-import hodl from "../assets/sponsors/hodl.webp"
-
 export const sponsors = [
-  {
-    name: "Hodl My Beer",
-    href: "https://www.facebook.com/hodlbeer/",
-    imgSrc: hodl,
-  },
-  {
-    name: "",
-    href: "/",
-  },
-]
+    {
+        name: "Hodl My Beer",
+        href: "https://www.facebook.com/hodlbeer/",
+        imgSrc: "images/sponsors/hodl.webp",
+    },
+    {
+        name: "",
+        href: "/",
+    },
+];
