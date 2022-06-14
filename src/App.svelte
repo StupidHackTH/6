@@ -5,10 +5,9 @@
 </script>
 
 <main class="flex flex-col items-center justify-center mt-4 sm:mt-10">
-
 	<header class="mb-8 flex flex-col items-center justify-center">
 		
-		<img src="images/banner.webp" alt="THE ៦th STUPID HACKATHON THAILAND"/>
+		<img src="images/banner.webp" alt="THE ៦th STUPID HACKATHON THAILAND" class="max-w-[100vw] max-h-[100vh]"/>
 		
 		<article class="mt-6 text-lg">
 			<a href="https://facebook.com/stupidhackth" class="px-2">Facebook</a>
@@ -39,11 +38,6 @@
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
-
-	img {
-  max-height: 60vh;
-  max-width: 95%;
-}
 
 .links {
   display: flex;
