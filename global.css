@@ -6,7 +6,7 @@ html, body {
 
 @font-face{
   font-family: 'XKCD';
-  src: url('./fonts/xkcd.ttf') format('truetype');
+  src: url('/6/fonts/xkcd.ttf') format('truetype');
 }
 
 body {
