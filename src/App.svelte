@@ -1,8 +1,7 @@
 <script lang="js">
 	import Gallary from "./Components/Gallary.svelte";
 	import Nav from "./Components/Nav.svelte";
-	import { tickets } from "./data/tickets"
-	import { sponsors } from "./data/sponsors"
+	import { tickets, sponsors, partners } from "./data/data"
 </script>
 
 <main class="flex flex-col items-center justify-center">
@@ -31,6 +30,11 @@
 	<h2 class="my-4 text-2xl md:my-8 text-center" id="sponsors">Sponsors</h2>
 	<section id="sponsors">
 		<Gallary data={sponsors} id="sponsors"/>
+	</section>
+
+	<h2 class="my-4 text-2xl md:my-8 text-center" id="sponsors">Partners</h2>
+	<section id="sponsors">
+		<Gallary data={partners} id="partners"/>
 	</section>
 
 	<footer class="py-6 gap-3 flex flex-row sm:gap-4" id="links">
