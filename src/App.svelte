@@ -11,8 +11,7 @@
 		<img src="images/banner.webp" alt="THE ៦th STUPID HACKATHON THAILAND" class="max-w-[90vw] border-2 border-black sm:max-w-[28rem] md:max-w-[90vw] md:max-h-[60vh]"/>
 	</header>
 
-	<h2 class="my-4 text-2xl md:my-8 text-center" id="about">About us</h2>
-	<section class="border-2 border-black p-4 md:p-8" id="about">
+	<section class="border-2 border-black p-4 my-4 md:p-8 md:my-8">
 		<h2 class="pb-4 md:pb-8"><span class="font-bold">Date:</span> 2-3 July 2022</h2>
 		<h2 class=""><span class="font-bold">Venue:</span> The University of the Thai Chamber of Commerce</h2>
 	</section>
