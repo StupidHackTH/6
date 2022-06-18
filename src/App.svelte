@@ -12,15 +12,21 @@
 	</header>
 
 	<h2 class="my-4 text-2xl md:my-8 text-center" id="about">About us</h2>
-	<section class="border-2 border-black" id="about">
-		<h4 class="p-4 md:p-8">The Stupid Hackathon in Thailand is a collaborative hackathon in Thailand with non-competitive intentions and no focuses on business value.</h4>
-		<h4 class="p-4 md:p-8">Our main goal for this hackathon is to get makers to just *have fun* and learn together, through working on any project they can dream of, fostering a community of enthusiastic creators.</h4>
-		<h4 class="p-4 md:p-8">In the spirit of the stupid hackathons worldwide, this event is *non-commercial* and free to attend...</h4>
+	<section class="border-2 border-black p-4 md:p-8" id="about">
+		<h2 class="pb-4 md:pb-8"><span class="font-bold">Date:</span> 2-3 July 2022</h2>
+		<h2 class=""><span class="font-bold">Venue:</span> The University of the Thai Chamber of Commerce</h2>
 	</section>
 
 	<h2 class="my-4 text-2xl md:my-8 text-center" id="tickets">Tickets</h2>
 	<section id="tickets">
 		<Gallary data={tickets} />
+	</section>
+
+		<h2 class="my-4 text-2xl md:my-8 text-center" id="about">About us</h2>
+	<section class="border-2 border-black" id="about">
+		<h4 class="p-4 md:p-8">The Stupid Hackathon in Thailand is a collaborative hackathon in Thailand with non-competitive intentions and no focuses on business value.</h4>
+		<h4 class="p-4 md:p-8">Our main goal for this hackathon is to get makers to just *have fun* and learn together, through working on any project they can dream of, fostering a community of enthusiastic creators.</h4>
+		<h4 class="p-4 md:p-8">In the spirit of the stupid hackathons worldwide, this event is *non-commercial* and free to attend...</h4>
 	</section>
 
 	<h2 class="my-4 text-2xl md:my-8 text-center" id="sponsors">Sponsors</h2>
@@ -58,6 +64,10 @@ a:hover {
 
 section {
 	@apply w-[90vw] mb-4 sm:w-[28rem] md:mb-8 hover:scale-[1.01] hover:rotate-1 transition-all
+}
+
+h2 {
+	@apply text-lg sm:text-xl
 }
 
 h4 {
