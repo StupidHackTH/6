@@ -67,9 +67,19 @@ export const tickets = [
 
 export const partners = [
     {
+        name: "UTCC Makerspace",
+        href: "https://eng.utcc.ac.th",
+        imgSrc: "images/partners/makerspace.webp"
+    },
+    {
         name: "showdown.space",
         href: "https://showdown.space",
         imgSrc: "images/partners/showdownspace.webp"
+    },
+    {
+        name: "Keron Technology",
+        href: "https://www.instagram.com/keron.tech",
+        imgSrc: "images/partners/keron.webp"
     },
     {
         name: "ITexperience",
