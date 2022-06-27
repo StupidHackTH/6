@@ -1,7 +1,12 @@
 <script lang="js">
 	import Gallary from "./Components/Gallary.svelte";
 	import Nav from "./Components/Nav.svelte";
+	import { fade } from 'svelte/transition'
 	import { tickets, sponsors, partners } from "./data/data"
+
+	let show = {
+		ticket: false
+	}
 </script>
 
 <main class="flex flex-col items-center justify-center">
@@ -13,11 +18,6 @@
 	<section class="border-2 border-black p-4 my-4 md:p-8 md:my-8">
 		<h2 class="pb-4 md:pb-8"><span class="font-bold">Date:</span> 2-3 July 2022</h2>
 		<h2 class=""><span class="font-bold">Venue:</span> The University of the Thai Chamber of Commerce</h2>
-	</section>
-
-	<h2 class="my-4 text-2xl md:my-8 text-center" id="tickets">Tickets</h2>
-	<section id="tickets">
-		<Gallary data={tickets} />
 	</section>
 
 		<h2 class="my-4 text-2xl md:my-8 text-center" id="about">About us</h2>
@@ -36,6 +36,15 @@
 	<section id="sponsors">
 		<Gallary data={partners} id="partners"/>
 	</section>
+
+	<h2 class="my-4 text-2xl md:my-8 text-center text-sky-600 hover:font-bold" id="tickets" on:click={()=>{
+		show.ticket = !show.ticket
+	}}>{show.ticket ? '[-] Tickets [Archived]' : '[+] Tickets [Archived]'}</h2>
+	{#if show.ticket}
+	<section id="tickets" transition:fade>
+		<Gallary data={tickets} />
+	</section>
+	{/if}
 
 	<footer class="py-6 gap-3 flex flex-row sm:gap-4" id="links">
 			<h4><a href="https://www.eventpop.me/e/13089" class="no-underline">Eventpop</a></h4>
@@ -57,7 +66,7 @@
 }
 
 a {
-  color: #0284c8;
+  color: #0891b2;
   text-decoration: underline;
 }
 

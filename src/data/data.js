@@ -28,6 +28,15 @@ export const sponsors = [
         name: "Wonderful.software",
         href: "https://wonderful.software",
         imgSrc: "images/sponsors/wonderfulsoftware.webp",
+    },
+    {
+        name: "Sunday Ins.",
+        href: "https://easysunday.com/",
+        imgSrc: "images/sponsors/sunday.webp",
+    },{
+        name: "Microsoft",
+        href: "https://http://microsoft.com",
+        imgSrc: "images/sponsors/microsoft.webp",
     }
 ];
 
