@@ -31,12 +31,21 @@ export const sponsors = [
     },
     {
         name: "Sunday Ins.",
-        href: "https://easysunday.com/",
+        href: "https://easysunday.com",
         imgSrc: "images/sponsors/sunday.webp",
     },{
         name: "Microsoft",
-        href: "https://http://microsoft.com",
+        href: "http://microsoft.com",
         imgSrc: "images/sponsors/microsoft.webp",
+    },
+    {
+        name: "Fastwork",
+        href: "https://fastwork.co",
+        imgSrc: "images/sponsors/fastwork.webp",
+    },{
+        name: "Rayriffy",
+        href: "http://rayriffy.com",
+        imgSrc: "images/sponsors/rayriffy.webp",
     }
 ];
 
