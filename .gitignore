@@ -1,4 +1,4 @@
 /node_modules/
 /public/build/
-
+/src/data/project-unformatted.js
 .DS_Store
