@@ -39,14 +39,14 @@ Chatbot ชวนคุยแก้เหงาที่ช่วยหาคำ
         name: "MosQlick by tam-arai-sak-yang-tee",
         team: [
             ["Seai"], ["Jainu"], ["Mikaxris"],
-            ["Santhitak", "github.com/santhitak"],
-            ["Spicyzboss", "github.com/spicyzboss"],
-            ["Jeremy", "github.com/pp3times"]],
+            ["Santhitak", "https://github.com/santhitak"],
+            ["Spicyzboss", "https://github.com/spicyzboss"],
+            ["Jeremy", "https://github.com/pp3times"]],
         description: `ซ้อมตียุงกันเถอะ!!`,
         img: "mosqlick.webp",
         url: [
             ["site", "https://mos-qlick.vercel.app/"],
-            ["github", "github: https://github.com/santhitak/mosQlick"]
+            ["github", "https://github.com/santhitak/mosQlick"]
         ],
         award: "🥈 2nd Most Stupid Award"
     }, {
@@ -63,7 +63,7 @@ Chatbot ชวนคุยแก้เหงาที่ช่วยหาคำ
     },{
         name: "Kaptcha by LAzyDev",
         team: [
-            ["Kanisorn siripatkerdpong", "ttps://github.com/new4761"],
+            ["Kanisorn siripatkerdpong", "https://github.com/new4761"],
             ["Tanakorn Thampanya",  "https://github.com/Endifly"],
             ["Nopon Somanawattana",  "https://github.com/noppon11"],
             ["Khajohnyos Boonkate",  "https://github.com/markkj"],
@@ -160,13 +160,13 @@ Chatbot ชวนคุยแก้เหงาที่ช่วยหาคำ
         name: "RRRaaSs by ผจญภัยในป่าอะเมซอน ไปเจอชนเผ่ามายาฮี มายาฮู มายาฮา มายาห๊ะ นั่นเสียงอะไรหน่ะ นั่นสิ ไม่รู้ ไม่รู้ ไม่รู้",
         description: "Rickroll but you wouldn't hear it, you touch it ;)",
         team: [
-            ["Phu", "github.com/richeyphu"],
-            ["Unn", "github.com/thitiwat-t"],
+            ["Phu", "https://github.com/richeyphu"],
+            ["Unn", "https://github.com/thitiwat-t"],
         ],
         img: "rrraass.webp",
         url: [
             ["github", "https://github.com/thitiwat-t/rrraass"],
-            ["demo", "rrraass.vercel.app"],
+            ["demo", "https://rrraass.vercel.app"],
         ]
      }, {
         name: "ได้รับเเรงบันดาลใจจากภูมิปรินทร์ by นั้นสิ",
