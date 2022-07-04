@@ -46,6 +46,16 @@ export const sponsors = [
         name: "Rayriffy",
         href: "http://rayriffy.com",
         imgSrc: "images/sponsors/rayriffy.webp",
+    },
+    {
+        name: "Phoomparin",
+        href: "https://poom.dev",
+        imgSrc: "images/sponsors/poom.webp"
+    },
+    {
+        name: "Bangmod Clound",
+        href: "https://bangmod.cloud",
+        imgSrc: "images/sponsors/bangmodcloud.webp"
     }
 ];
 
