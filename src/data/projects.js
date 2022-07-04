@@ -145,15 +145,17 @@ Chatbot ชวนคุยแก้เหงาที่ช่วยหาคำ
         url: [],
         award: "🏆 Non Stupid Award"
     }, {
-        name: "Jerm - a blessing github action... by Monks",
-        description: "",
+        name: "Jerm by Monks",
+        description: "a blessing github action...",
         team: [
-            ["ST4RCHASER" ,"https://github.com/ST4RCHASER"],
-            ["kana2011th" ,"https://github.com/kana2011th"],
-            ["runyasak" ,"https://github.com/runyasak"],
+            ["ST4RCHASER", "https://github.com/ST4RCHASER"],
+            ["kana2011th", "https://github.com/kana2011th"],
+            ["runyasak", "https://github.com/runyasak"],
         ],
+        img: "monks.webp",
         url: [
-            ["github", "https://github.com/ST4RCHASER/monk-action"]
+            ["github", "https://github.com/ST4RCHASER/jerm-action"],
+            ["demo", "https://github.com/ST4RCHASER/jerm-demo"]
         ],
         award: "🏆 Most Impressive Technology Award"
      }, {
