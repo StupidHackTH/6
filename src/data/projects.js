@@ -185,18 +185,21 @@ Ref 2: [Below]`,
         ],
         img: "thaifuc.webp"
      }, {
-        name: "Yellow-house by Cunny",
-        description: "An aliternative to lighthouse for finding stats about your website, but it's for ความรักชาติ. Also there's an eslint module for thai number only.",
+        name: "บ้านสีเหลือง by Cunny",
+        description: "An alternative to lighthouse for finding stats about your website, but it's for ความรักชาติ. Also there's an eslint module for thai number only.",
         team: [
-            ["Gusbell"],
-            ["Varkaria"],
-            ["Leomotors"],
-            ["IkaWaAyuMu"],
-            ["sleepntsheep"],
-            ["WitMaster"],
+            ["Gusbell", "https://github.com/Gusb3ll"],
+            ["Varkaria", "https://github.com/Varkaria"],
+            ["Leomotors", "https://github.com/Leomotors"],
+            ["IkaWaAyuMu", "https://github.com/IkaWaAyuMu"],
+            ["sleepntsheep", "https://github.com/sleepntsheep"],
+            ["WitMaster", "https://github.com/WitMaster98"],
         ],
         img: "cunny.webp",
-        url: [],
+        url: [
+            ["GitHub", "https://github.com/cunny-SHiT6"],
+            ["Homepage (written in Kotchasan)", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"]
+        ],
         award: "🏆 Most Aesthetically Pleasing Award"
      }, {
         name: "PEDEEEPE-A by PEDEEP",
